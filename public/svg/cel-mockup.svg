@@ -1,0 +1,24 @@
+<svg viewBox="0 0 359 724" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cel-mockup">
+<path id="Rectangle 27" d="M352 185H356C357.657 185 359 186.343 359 188V271C359 272.657 357.657 274 356 274H352V185Z" fill="black"/>
+<path id="Rectangle 28" d="M1 118C1 116.895 1.89543 116 3 116H4V144H3C1.89543 144 1 143.105 1 142V118Z" fill="black"/>
+<path id="Rectangle 29" d="M0 170C0 168.895 0.895431 168 2 168H3V221H2C0.895431 221 0 220.105 0 219V170Z" fill="black"/>
+<path id="Rectangle 30" d="M0 240C0 238.895 0.895431 238 2 238H3V291H2C0.895431 291 0 290.105 0 289V240Z" fill="black"/>
+<path id="Vector 27" d="M300.75 4H76.3509H57.75C29.5835 4 6.75 26.8335 6.75 55V669C6.75 697.167 29.5835 720 57.75 720H300.75C328.917 720 351.75 697.167 351.75 669V55C351.75 26.8335 328.917 4 300.75 4Z" stroke="black" stroke-width="8"/>
+<path id="Vector 28" d="M303.75 8H78.7369H54.75C30.4495 8 10.75 27.6995 10.75 52V672C10.75 696.301 30.4495 716 54.75 716H303.75C328.051 716 347.75 696.301 347.75 672V52C347.75 27.6995 328.051 8 303.75 8Z" fill="url(#paint0_linear_108_30)"/>
+<rect id="Rectangle 31" x="140" y="30" width="77" height="23" rx="11" fill="black"/>
+<circle id="Ellipse 17" cx="203" cy="42" r="5" fill="#C7C7C7"/>
+<circle id="Ellipse 18" cx="203" cy="42" r="3" fill="white"/>
+
+<g class="logo-dk">
+<path id="logo-dk" d="M174.149 422.088L149.771 399.742L100 450.529C100 450.529 125.393 450.529 149.771 450.529C164.055 450.529 175.564 445.652 187.132 435.072M210.715 405.836C201.48 419.301 195.307 427.595 187.132 435.072M199.542 352.002L179.227 372.317L257.439 450.529H202.589L187.132 435.072M213.762 337.782L257.439 291.058H202.589L100 393.648V291.058C100 291.058 140.556 290.927 149.771 291.058C158.986 291.19 171.204 291.242 176.18 296.137M188.369 308.325C199.69 317.101 222.897 346.724 217.825 384.506" stroke="black" stroke-width="10.1573" stroke-miterlimit="16" stroke-linecap="square"/>
+</g>
+
+</g>
+<defs>
+<linearGradient id="paint0_linear_108_30" x1="179.25" y1="8" x2="179.25" y2="716" gradientUnits="userSpaceOnUse">
+<stop offset="0.115116" stop-color="#F0F0F0"/>
+<stop offset="1" stop-color="#A855F7"/>
+</linearGradient>
+</defs>
+</svg>

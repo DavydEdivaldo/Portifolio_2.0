@@ -1,0 +1,52 @@
+<svg  viewBox="0 0 359 724" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.logo-dk {
+    stroke-width: 0;
+    stroke-dasharray: 1 1000;
+    stroke-dashoffset: 0;
+    animation: logoAnimate 7s ease 1s infinite alternate;
+}
+@keyframes logoAnimate {
+    0% {
+        stroke-width: 0;
+        stroke-dasharray: 1 1000;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-width: 1;
+        stroke-dasharray: 400 1;
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-width: 1;
+        stroke-dasharray: 1000 1;
+        stroke-dashoffset: 0;
+    }
+}
+</style>
+
+<g id="cel-mockup">
+<path id="Rectangle 27" d="M352 185H356C357.657 185 359 186.343 359 188V271C359 272.657 357.657 274 356 274H352V185Z" fill="black"/>
+<path id="Rectangle 28" d="M1 118C1 116.895 1.89543 116 3 116H4V144H3C1.89543 144 1 143.105 1 142V118Z" fill="black"/>
+<path id="Rectangle 29" d="M0 170C0 168.895 0.895431 168 2 168H3V221H2C0.895431 221 0 220.105 0 219V170Z" fill="black"/>
+<path id="Rectangle 30" d="M0 240C0 238.895 0.895431 238 2 238H3V291H2C0.895431 291 0 290.105 0 289V240Z" fill="black"/>
+<path id="Vector 27" d="M300.75 4H76.3509H57.75C29.5835 4 6.75 26.8335 6.75 55V669C6.75 697.167 29.5835 720 57.75 720H300.75C328.917 720 351.75 697.167 351.75 669V55C351.75 26.8335 328.917 4 300.75 4Z" stroke="black" stroke-width="8"/>
+<path id="Vector 28" d="M303.75 8H78.7369H54.75C30.4495 8 10.75 27.6995 10.75 52V672C10.75 696.301 30.4495 716 54.75 716H303.75C328.051 716 347.75 696.301 347.75 672V52C347.75 27.6995 328.051 8 303.75 8Z" fill="url(#paint0_linear_108_30)"/>
+<rect id="Rectangle 31" x="140" y="30" width="77" height="23" rx="11" fill="black"/>
+<circle id="Ellipse 17" cx="203" cy="42" r="5" fill="#C7C7C7"/>
+<circle id="Ellipse 18" cx="203" cy="42" r="3" fill="white"/>
+
+<g class="logo-dk">
+<path id="Vector 46" d="M173.071 446.633L144.116 420.091L85 480.413C85 480.413 115.161 480.413 144.116 480.413C161.082 480.413 174.752 474.621 188.493 462.054M218.916 424.917C207.948 440.91 198.202 453.174 188.493 462.054M203.232 363.388L179.103 387.517L272 480.413H206.852L188.493 462.054M217.71 344.084L272 291H206.852L85 412.852V291C85 291 133.258 291.001 144.116 291C154.974 291 162.213 293.413 168.245 299.446M189.961 311.51C204.037 323.172 231.705 358.561 224.948 401.994" stroke="black" stroke-width="12.0645"/>
+</g>
+
+</g>
+<defs>
+<linearGradient id="paint0_linear_108_30" x1="179.25" y1="8" x2="179.25" y2="716" gradientUnits="userSpaceOnUse">
+<stop offset="0.115116" stop-color="#F0F0F0"/>
+<stop offset="1" stop-color="#A855F7"/>
+</linearGradient>
+</defs>
+</svg>

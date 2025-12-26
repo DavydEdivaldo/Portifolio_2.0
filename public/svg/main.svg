@@ -1,0 +1,103 @@
+<svg viewBox="0 0 3333 3333" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+.js, .css, .react{
+	animation: svg 3s ease 1s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+.wordpress, .figma, .cod{
+	animation: svg 3s ease 3s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+.cod2, .html{
+	animation: svg 3s ease 2s infinite alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+@keyframes svg {
+	0%{
+		transform: translate3d(0, 0, 0);
+	}
+	100%{
+		transform: translate3d(0, -80px, 0);
+	}
+}
+</style>
+
+<g id="main">
+<g id="Vector 18">
+<path d="M673 2404.5V2557.5H1291H1758.5H2403V2404.5H673Z" fill="#D9D9D9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M673 2404.5H2403V1521.5C2403 1432.5 2389 1398 2353 1398C2322.4 1398 1215.1 1398 847.507 1398L732 1398C673.001 1398 673.001 1439.5 673 1480.5C673 1521.5 673 2404.5 673 2404.5ZM2353 2348.5H732V1457H2353V2348.5Z" fill="#D9D9D9"/>
+<path d="M1273 2760.5H1788L1758.5 2557.5H1291L1273 2760.5Z" fill="#D9D9D9"/>
+<path d="M673 2404.5V2557.5H1291M673 2404.5H2403M673 2404.5C673 2404.5 673 1521.5 673 1480.5C673.001 1439.5 673.001 1398 732 1398M2403 2404.5V2557.5H1758.5M2403 2404.5C2403 2404.5 2403 1610.5 2403 1521.5M2403 2404.5V1521.5M732 1398L847.507 1398M732 1398C740.846 1398 782.671 1398 847.507 1398M2403 1521.5C2403 1432.5 2389 1398 2353 1398C2322.4 1398 1215.1 1398 847.507 1398M1758.5 2557.5L1788 2760.5H1273L1291 2557.5M1758.5 2557.5H1291M732 2348.5H2353V1457H732V2348.5Z" stroke="black" stroke-width="9"/>
+</g>
+<path id="Vector 20" d="M1128 2838C1128 2838 1157.69 2765.48 1200.89 2760H1856.94C1891.93 2760 1924 2838 1924 2838H1128Z" fill="#D9D9D9" stroke="black" stroke-width="7"/>
+<g id="page">
+<path id="Vector 21" d="M2132.5 694.667V2344.17H944C944 2344.17 944 730.667 944 694.667C944 658.667 951.494 647.667 975.5 647.667C999.506 647.667 2063.51 646.167 2091 647.667C2118.49 649.167 2132.5 666.167 2132.5 694.667Z" fill="white" stroke="black" stroke-width="7"/>
+<path id="Vector 22" d="M945 767H2132.5" stroke="black" stroke-width="7"/>
+</g>
+<path id="ferramenta" d="M1577.5 2202V2344M1577.5 2344H1445V2202L1374 2129.5V1989.5L1457.5 1908V2096H1616.5V1908L1701.5 1989.5V2129.5L1629 2202V2344H1577.5Z" stroke="black" stroke-width="11"/>
+<g id="linhas1">
+<path id="Vector" d="M1022 1397H1903.51V1472.99H1022V1397Z" fill="black"/>
+<path id="Vector_2" d="M1022 1539.48H1149.51V1605.97H1022V1539.48Z" fill="black"/>
+<path id="Vector_3" d="M1227.13 1539.48H1581.95V1605.97H1227.13V1539.48Z" fill="black"/>
+<path id="Vector_4" d="M1022 1681.96H1853.62V1748.46H1022V1681.96Z" fill="black"/>
+</g>
+<g id="linhas2">
+<path id="Vector_5" d="M1022 892H1903.51V967.991H1022V892Z" fill="black"/>
+<path id="Vector_6" d="M1022 1034.48H1149.51V1100.97H1022V1034.48Z" fill="black"/>
+<path id="Vector_7" d="M1227.13 1034.48H1581.95V1100.97H1227.13V1034.48Z" fill="black"/>
+<path id="Vector_8" d="M1022 1176.96H1853.62V1243.46H1022V1176.96Z" fill="black"/>
+</g>
+
+<g id="JS" class="js">
+<path id="Vector 27" d="M3042.5 1249C3009.97 1249 2520.92 1249 2465.17 1249C2463.31 1249 2462.66 1251.3 2464.06 1252.51L2606.81 1375.9C2607.25 1376.28 2607.5 1376.83 2607.5 1377.41V1685C2608.4 1721.73 2621.5 1742 2664 1742H3049.5C3084 1742 3098.5 1721.5 3098.5 1685V1300C3098.5 1261.5 3077 1249 3042.5 1249Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="JS_2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="2733" y="1569.73">JS</tspan></text>
+</g>
+
+<g id="html" class="html">
+<path id="Vector 27_2" d="M3004.37 1086C2949.21 1086 2117.46 1086 2027.82 1086C2025.71 1086 2025.52 1083.18 2027.39 1082.22L2268.17 959.057C2268.84 958.715 2269.26 958.028 2269.26 957.277V650C2270.77 613.273 2292.92 593 2364.74 593H3016.2C3074.5 593 3099 613.5 3099 650V1035C3099 1073.5 3062.67 1086 3004.37 1086Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="HTML" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="2396" y="912.727">HTML</tspan></text>
+</g>
+
+<g id="css" class="css">
+<path id="Vector 27_3" d="M156.287 1260C196.604 1260 803.683 1260 870.957 1260C872.913 1260 873.394 1257.48 871.791 1256.36L695.357 1133.1C694.821 1132.72 694.502 1132.11 694.502 1131.46V824C693.394 787.273 677.18 767 624.596 767H147.626C104.94 767 87 787.5 87 824V1209C87 1247.5 113.601 1260 156.287 1260Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="CSS" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="183" y="1085.73">CSS</tspan></text>
+</g>
+
+<g id="react" class="react">
+<path id="Vector 27_4" d="M177.315 2467.19C230.006 2467.16 1024.47 2466.81 1110.38 2466.78C1112.46 2466.77 1112.7 2469.56 1110.86 2470.54L880.831 2593.81C880.181 2594.16 879.776 2594.84 879.776 2595.58L879.912 2902.88C878.481 2939.61 857.331 2959.89 788.705 2959.92L166.23 2960.19C110.522 2960.22 87.0994 2939.73 87.0832 2903.23L86.9133 2518.23C86.8963 2479.73 121.607 2467.21 177.315 2467.19Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="REACT" transform="translate(151.952 2605.2) rotate(-0.0252955)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="0" y="193.727">REACT</tspan></text>
+</g>
+
+<g id="figma" class="figma">
+<path id="Vector 29" d="M1898 2527L1970 2655.5H2592.5C2620.5 2655.5 2654.5 2671 2654.5 2703.5V2930C2654.5 2964 2629.5 2993.5 2592.5 2993.5H1642.5C1593.5 2993.5 1584.17 2970.31 1582 2930C1582 2930 1582 2736 1582 2703.5C1582 2671 1613.5 2655.5 1642.5 2655.5H1826L1898 2527Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="FIGMA" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="1797" y="2899.73">FIGMA</tspan></text>
+</g>
+
+<g id="wordpress" class="wordpress">
+<path id="Vector 29_2" d="M1161.12 767L1259.8 622.386H2113.02C2151.39 622.386 2198 604.942 2198 568.367V313.463C2198 275.199 2163.73 242 2113.02 242H810.923C743.762 242 730.972 268.099 728 313.463C728 313.463 728.004 531.791 728 568.367C727.996 604.942 771.171 622.386 810.923 622.386H1062.43L1161.12 767Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<text id="WORDPRESS" fill="black" xml:space="preserve" style="white-space: pre" font-family="Inter" font-size="200" font-weight="500" letter-spacing="0em"><tspan x="839" y="504.727">WORDPRESS</tspan></text>
+</g>
+
+<g id="cod" class="cod">
+<path id="Vector 30" d="M381.5 2338L280.5 2249.5H186C152.499 2249.5 140 2231 140 2191.5C140 2152 140.004 1837.5 140 1803C139.996 1768.5 165.996 1756 195 1756H280.5L381.5 1667L488.5 1756H574C614 1756 632 1771 632 1817V2191.5C632 2233.5 613.327 2247.73 574 2249.5H488.5L381.5 2338Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<g id="Group 7">
+<path id="Vector 32" d="M497 1926L571 2001L497 2079.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<path id="Vector 33" d="M277.5 1925L201 2002L277.5 2080.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<path id="Vector 31" d="M341 1932.5L432.5 2078.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+</g>
+</g>
+
+<g id="cod2" class="cod2">
+<path id="Vector 30_2" d="M2848.5 2605L2747.5 2516.5H2653C2619.5 2516.5 2607 2498 2607 2458.5C2607 2419 2607 2104.5 2607 2070C2607 2035.5 2633 2023 2662 2023H2747.5L2848.5 1934L2955.5 2023H3041C3081 2023 3099 2038 3099 2084V2458.5C3099 2500.5 3080.33 2514.73 3041 2516.5H2955.5L2848.5 2605Z" fill="white" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<g id="Group 7_2">
+<path id="Vector 32_2" d="M2964 2193L3038 2268L2964 2346.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<path id="Vector 33_2" d="M2744.5 2192L2668 2269L2744.5 2347.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+<path id="Vector 31_2" d="M2808 2199.5L2899.5 2345.5" stroke="black" stroke-width="16" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>
