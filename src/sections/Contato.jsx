@@ -28,7 +28,7 @@ const Contato = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: false, amount: 0.3 }}>
-                <h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent mb-2">Contact</h1>
+                <h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent mb-2">Contato</h1>
                 <p className="text-[16px] max-[800px]:text-[14px] text-gray-300">
                     Entre em contato comigo ou deixe um comentário.
                 </p>
