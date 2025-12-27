@@ -1,8 +1,23 @@
 import Eu from '/img/eu-estudio.jpeg'
 import Button from '../componentes/Button.jsx'
 import { motion } from "motion/react"
+import { useEffect, useState } from "react";
 
 export default function Sobre() {
+    function useIsMobile() {
+        const [isMobile, setIsMobile] = useState(window.innerWidth <= 800);
+
+        useEffect(() => {
+            const handleResize = () => setIsMobile(window.innerWidth <= 800);
+            window.addEventListener("resize", handleResize);
+            return () => window.removeEventListener("resize", handleResize);
+        }, []);
+
+        return isMobile;
+    }
+
+    const isMobile = useIsMobile();
+
     return (
         <div className="flex w-full min-h-screen justify-center items-center z-10 flex-col mt-6" id='About'>
             <motion.h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent"
@@ -36,7 +51,7 @@ export default function Sobre() {
                     </div>
                 </motion.div>
                 <motion.div className="flex-1 z-10"
-                    initial={{ opacity: 0, x: 30 }}
+                    initial={{ opacity: 0, x: isMobile? -30 : 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: false, amount: 0.3 }}>

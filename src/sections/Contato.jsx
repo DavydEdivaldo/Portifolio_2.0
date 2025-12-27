@@ -3,6 +3,7 @@ import { motion } from "motion/react"
 import Form from '../componentes/Form';
 import Comentarios from '../componentes/Comentarios'
 import { useEffect, useState } from "react";
+
 const Contato = () => {
 
     function useIsMobile() {
