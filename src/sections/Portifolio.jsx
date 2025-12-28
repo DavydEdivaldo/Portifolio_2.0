@@ -2,6 +2,7 @@ import projeto1 from '/img/projeto-nubank.png'
 import projeto2 from '/img/cardapio-digital.png'
 import projetoPortifolio from '/img/portifolio.png'
 import landingPage from '/img/webPage.jpeg'
+import catalogo from '/img/catalogo.png'
 import { motion } from "motion/react"
 import { useEffect, useState } from "react";
 
@@ -29,13 +30,13 @@ export default function Portifolio() {
             title: "Portfolio Moderno",
             description: "Design responsivo e interativo com Tailwind CSS.",
             image: projetoPortifolio,
-            link: "#"
+            link: "https://davyd-8f4e4.web.app/"
         },
         {
             title: "Catálogo Digital",
             description: "Catálogo online para empresas do setor têxtil.",
-            image: "https://via.placeholder.com/300x200",
-            link: "#"
+            image: catalogo,
+            link: "https://catalogodkconfeccoes.vercel.app/"
         },
         {
             title: "Landing Page",
@@ -92,6 +93,7 @@ export default function Portifolio() {
                                 <p className="text-gray-400 text-sm mb-4">{project.description}</p>
                                 <a
                                     href={project.link}
+                                    target='_blank'
                                     className="inline-block text-blue-400 hover:text-blue-300 font-medium"
                                 >
                                     Ver Projeto →

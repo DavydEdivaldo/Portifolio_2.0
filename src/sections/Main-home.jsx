@@ -11,14 +11,13 @@ export default function Main() {
                 transition={{ duration: 0.6 }}
                 viewport={{ once: false, amount: 0.3 }}>
                     
-            <div className="flex-2 gap-2">
+            <div className="flex-1 gap-2">
                 <h1 className="flex flex-col">
                     <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#f0f0f0] to-[#6366f1] bg-clip-text text-transparent">FRONTEND</span>
                     <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent">DEVELOP</span>
                 </h1>
                 <p className='margin-top-2 text-[16px] max-md:text-[14px]'>
-                    Olá, esse é meu portofolio.<br />
-                    Meu nome é Davyd, sou web desinger e desenvolvedor front end
+                    Transformando código em experiências visuais. Sou um desenvolvedor Front-end apaixonado por construir interfaces que conectam pessoas e marcas.
                 </p>
 
                 <div className=' flex items-center margin-top-3'>

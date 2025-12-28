@@ -45,8 +45,8 @@ export default function Sobre() {
 
                     <div className=' flex items-center margin-top-3'>
                         <div className='flex gap-4 flex-wrap text-[#f0f0f0]'>
-                            <Button text={"Contato"} />
-                            <Button text={"Projetos"} />
+                            <Button href={"https://wa.link/5k58iy"} text={"Contato"} />
+                            <Button href={"https://github.com/DavydEdivaldo?tab=repositories"} text={"Projetos"} />
                         </div>
                     </div>
                 </motion.div>

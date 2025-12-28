@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Button = ({text}) => {
+const Button = ({text, href}) => {
   return (
     <StyledWrapper>
       <div aria-label={`${text} Button`} tabIndex={0} role="button" className="user-profile">
         <div className="user-profile-inner">
-          <p>{text}</p>
+          <a href={href} target='_blank'><p>{text}</p></a>
         </div>
       </div>
     </StyledWrapper>
