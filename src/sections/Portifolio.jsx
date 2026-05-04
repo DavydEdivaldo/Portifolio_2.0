@@ -1,5 +1,5 @@
 import projeto1 from '/img/projeto-nubank.png'
-import projeto2 from '/img/cardapio-digital.png'
+import projeto2 from '/img/cardapio.png'
 import projetoPortifolio from '/img/portifolio.png'
 import landingPage from '/img/webPage.jpeg'
 import catalogo from '/img/catalogo.png'
@@ -10,37 +10,37 @@ export default function Portifolio() {
     const projects = [
         {
             title: "Web site Nubank",
-            description: "Redesing do web site Nubank.",
+            description: "Redesing do web site Nubank, utiliando css para animações simples de svg.",
             image: projeto1,
             link: "https://web-site-nubank.vercel.app/"
         },
         {
             title: "Cardápio Digital",
-            description: "Cardápio digital para deliveries.",
+            description: "Cardápio digital usando google sheets como banco de dados assim permitindo que o cliente consiga alterar dados como descrição, imagem, preço e titulo dos produtos.",
             image: projeto2,
-            link: "https://cardapio-digital-nu.vercel.app/"
+            link: "https://esfistreet.vercel.app/"
         },
         {
             title: "Blog",
-            description: "Blog pessoal para publicações diversas.",
+            description: "Ainda em desenvolvimento",
             image: "https://via.placeholder.com/300x200",
             link: "#"
         },
         {
             title: "Portfolio Moderno",
-            description: "Design responsivo e interativo com Tailwind CSS.",
+            description: "Portifolio desenvolvido em react, utilizando css avançado e biblioteca motion para animações, e farebase para seção de comentários reais.",
             image: projetoPortifolio,
             link: "https://davyd-8f4e4.web.app/"
         },
         {
             title: "Catálogo Digital",
-            description: "Catálogo online para empresas do setor têxtil.",
+            description: "Catálogo online desenvolvido com react, utiliando cloudinary para armazenar as imagens tornando o site mais leve. biblioteca motion para animações.",
             image: catalogo,
             link: "https://catalogodkconfeccoes.vercel.app/"
         },
         {
             title: "Landing Page",
-            description: "Landing Page para conversão.",
+            description: "Landing Page para uma pizzaria utiliando HTML, CSS e JS com biblioteca scroll revel para animações simples.",
             image: landingPage,
             link: "#"
         }
