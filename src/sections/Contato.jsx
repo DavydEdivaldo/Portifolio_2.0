@@ -27,7 +27,7 @@ const Contato = () => {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: false, amount: 0.3 }}>
+                viewport={{ once: true, amount: 0.3 }}>
                 <h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent mb-2">Contato</h1>
                 <p className="text-[16px] max-[800px]:text-[14px] text-gray-300">
                     Entre em contato comigo ou deixe um comentário.
@@ -39,7 +39,7 @@ const Contato = () => {
                     initial={{ opacity: 0, x: -40 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7 }}
-                    viewport={{ once: false, amount: 0.4 }}>
+                    viewport={{ once: true, amount: 0.4 }}>
                     <Form></Form>
                 </motion.div>
 
@@ -47,7 +47,7 @@ const Contato = () => {
                     initial={{ opacity: 0, x: isMobile ? -40 : 40 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7 }}
-                    viewport={{ once: false, amount: 0.4 }}>
+                    viewport={{ once: true, amount: 0.4 }}>
                     <Comentarios></Comentarios>
                 </motion.div>
 

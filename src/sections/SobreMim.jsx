@@ -24,7 +24,7 @@ export default function Sobre() {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: false, amount: 0.3 }}>
+                viewport={{ once: true, amount: 0.3 }}>
                 SOBRE MIM
             </motion.h1>
             <div className="w-[87vw] h-auto flex flex-row justify-between items-center mt-6 max-[800px]:flex-col-reverse max-[800px]:gap-4">
@@ -32,7 +32,7 @@ export default function Sobre() {
                     initial={{ opacity: 0, x: -30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
-                    viewport={{ once: false, amount: 0.3 }}>
+                    viewport={{ once: true, amount: 0.3 }}>
                     <h1 className="flex flex-col">
                         <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#f0f0f0] to-[#6366f1] bg-clip-text text-transparent">Davyd E.</span>
                         <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent">Silva</span>
@@ -54,7 +54,7 @@ export default function Sobre() {
                     initial={{ opacity: 0, x: isMobile? -30 : 30 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
-                    viewport={{ once: false, amount: 0.3 }}>
+                    viewport={{ once: true, amount: 0.3 }}>
                     <img src={Eu} alt="Foto perfil" className='w-[350px] h-[350px] max-[800px]:w-[200px] max-[800px]:h-[200px] rounded-full object-cover borda-neon' />
                 </motion.div>
             </div>

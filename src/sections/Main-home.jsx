@@ -9,7 +9,7 @@ export default function Main() {
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: false, amount: 0.3 }}>
+                viewport={{ once: true, amount: 0.3 }}>
                     
             <div className="flex-1 gap-2">
                 <h1 className="flex flex-col">
