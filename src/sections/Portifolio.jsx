@@ -66,7 +66,7 @@ export default function Portifolio() {
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                viewport={{ once: false, amount: 0.3 }}>
+                viewport={{ once: true, amount: 0.3 }}>
                 <h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent mb-2">Portfolio</h1>
                 <p className="text-[16px] max-[800px]:text-[14px] text-gray-300">
                     Explore meus projetos e criações desenvolvidos com tecnologias modernas.
@@ -83,7 +83,7 @@ export default function Portifolio() {
                             whileInView={{ opacity: 1, x: 0, y: 0 }}
                             transition={{ duration: 0.6, ease: 'easeInOut', delay: index * 0.15 }}
                             viewport={{
-                                once: false
+                                once: true
                                 , amount: 0.4
                             }}
                         >
