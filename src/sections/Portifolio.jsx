@@ -1,5 +1,6 @@
 import projeto1 from '/img/projeto-nubank.png'
 import projeto2 from '/img/cardapio.png'
+import spiderpng from '/img/spider.png'
 import projetoPortifolio from '/img/portifolio.png'
 import landingPage from '/img/webPage.jpeg'
 import catalogo from '/img/catalogo.png'
@@ -21,14 +22,14 @@ export default function Portifolio() {
             link: "https://esfistreet.vercel.app/"
         },
         {
-            title: "Blog",
-            description: "Ainda em desenvolvimento",
-            image: "https://via.placeholder.com/300x200",
-            link: "#"
+            title: "Home Page Spider-Man",
+            description: "Home page temática do Spider-Man criada com HTML, CSS e JavaScript, explorando efeitos visuais, transições suaves e slideshow interativo de background para proporcionar uma experiência imersiva inspirada nos jogos e filmes do herói.",
+            image: spiderpng,
+            link: "https://davydedivaldo.github.io/page-spider/"
         },
         {
-            title: "Portfolio Moderno",
-            description: "Portifolio desenvolvido em react, utilizando css avançado e biblioteca motion para animações, e farebase para seção de comentários reais.",
+            title: "Portfolio",
+            description: "Portifolio desenvolvido em react, utilizando css avançado e biblioteca motion para animações, e farebase para seção de comentários.",
             image: projetoPortifolio,
             link: "https://davyd-8f4e4.web.app/"
         },
