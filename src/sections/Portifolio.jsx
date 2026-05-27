@@ -11,7 +11,7 @@ export default function Portifolio() {
     const projects = [
         {
             title: "Web site Nubank",
-            description: "Redesing do web site Nubank, utiliando css para animações simples de svg.",
+            description: "Interface inspirada no Nubank desenvolvida com React, explorando animações modernas com Framer Motion e efeitos visuais em SVG para criar uma experiência fluida e dinâmica. O projeto destaca transições suaves, interatividade e um design minimalista inspirado na identidade visual da fintech",
             image: projeto1,
             link: "https://web-site-nubank.vercel.app/"
         },
@@ -29,19 +29,19 @@ export default function Portifolio() {
         },
         {
             title: "Portfolio",
-            description: "Portifolio desenvolvido em react, utilizando css avançado e biblioteca motion para animações, e farebase para seção de comentários.",
+            description: "Portfólio moderno desenvolvido com React e Firebase, combinando design interativo e funcionalidades dinâmicas. O projeto inclui sistema de comentários integrado com Firebase, permitindo interação em tempo real entre visitantes, além de deploy online para acesso rápido e responsivo em diferentes dispositivos.",
             image: projetoPortifolio,
             link: "https://davyd-8f4e4.web.app/"
         },
         {
             title: "Catálogo Digital",
-            description: "Catálogo online desenvolvido com react, utiliando cloudinary para armazenar as imagens tornando o site mais leve. biblioteca motion para animações.",
+            description: "Aplicação de cardápio digital desenvolvida com React, focada em praticidade e gerenciamento simplificado para delivery. O sistema utiliza Google Sheets como banco de dados, permitindo que o proprietário adicione novos produtos e altere preços em tempo real de forma intuitiva, sem necessidade de editar código.",
             image: catalogo,
             link: "https://catalogodkconfeccoes.vercel.app/"
         },
         {
             title: "Landing Page",
-            description: "Landing Page para uma pizzaria utiliando HTML, CSS e JS com biblioteca scroll revel para animações simples.",
+            description: "Landing page, desenvolvida com HTML, CSS e JavaScript. O projeto apresenta uma interface moderna com animações visuais e design responsivo focado em experiência do usuário.",
             image: landingPage,
             link: "#"
         }
