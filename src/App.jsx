@@ -7,39 +7,39 @@ import Sobre from './sections/SobreMim.jsx'
 import Portifolio from './sections/Portifolio.jsx'
 import Contato from './sections/Contato.jsx'
 import Footer from './componentes/Footer.jsx'
-import Intro from './componentes/Intro.jsx'
-import { AnimatePresence } from "framer-motion";
+//import Intro from './componentes/Intro.jsx'
+// import { AnimatePresence } from "framer-motion";
 
 function App() {
-  const [showIntro, setShowIntro] = useState(true);
+  // const [showIntro, setShowIntro] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowIntro(false);
-    }, 3000);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setShowIntro(false);
+  //   }, 3000);
 
-    return () => clearTimeout(timer);
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <>
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {showIntro && <Intro/>}
-      </AnimatePresence>
+      </AnimatePresence> */}
 
-      {!showIntro && (
-        
-        <>
-        <AnimatedBackground />
-        <Header />
-        <Main/>
-        <Sobre/>
-        <Portifolio/>
-        <Contato/>
-        <Footer/>
-        </>
-           
-      )}
+
+
+
+      <AnimatedBackground />
+      <Header />
+      <Main />
+      <Sobre />
+      <Portifolio />
+      <Contato />
+      <Footer />
+
+
+
 
     </>
   )

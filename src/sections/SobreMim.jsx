@@ -1,4 +1,5 @@
 import Eu from '/img/eu-estudio.jpeg'
+import Eu2 from '/img/eu2.jpeg'
 import Button from '../componentes/Button.jsx'
 import { motion } from "motion/react"
 import { useEffect, useState } from "react";
@@ -38,15 +39,13 @@ export default function Sobre() {
                         <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent">Silva</span>
                     </h1>
                     <p className='margin-top-2 text-[16px] max-md:text-[14px] max-w-[75%] max-[800px]:max-w-[100%]'>
-                        Formado em analise e desenvolvimento de sistemas,segui meus estudos
-                        na area de web desing e UX desing, onde encontrei minha paixão por
-                        criar e desenvolver soluções interativas e criativas.
+                        Desenvolvedor Front-End com formação em Análise e Desenvolvimento de Sistemas e foco em Web Design e UX Design. Apaixonado por criar experiências digitais modernas, busco unir design, animações e performance para desenvolver interfaces intuitivas, criativas e visualmente impactantes.
                     </p>
 
                     <div className=' flex items-center margin-top-3'>
                         <div className='flex gap-4 flex-wrap text-[#f0f0f0]'>
                             <Button href={"https://wa.link/5k58iy"} text={"Contato"} />
-                            <Button href={"https://github.com/DavydEdivaldo?tab=repositories"} text={"Projetos"} />
+                            <Button href={"https://github.com/DavydEdivaldo?tab=repositories"} text={"Github"} />
                         </div>
                     </div>
                 </motion.div>
@@ -55,7 +54,7 @@ export default function Sobre() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true, amount: 0.3 }}>
-                    <img src={Eu} alt="Foto perfil" className='w-[350px] h-[350px] max-[800px]:w-[200px] max-[800px]:h-[200px] rounded-full object-cover borda-neon' />
+                    <img src={Eu2} alt="Foto perfil" className='w-[350px] h-[350px] max-[800px]:w-[200px] max-[800px]:h-[200px] rounded-full object-cover borda-neon' />
                 </motion.div>
             </div>
         </div>
