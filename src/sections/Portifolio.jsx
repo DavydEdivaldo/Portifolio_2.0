@@ -17,7 +17,7 @@ export default function Portifolio() {
         },
         {
             title: "Cardápio Digital",
-            description: "Cardápio digital usando google sheets como banco de dados assim permitindo que o cliente consiga alterar dados como descrição, imagem, preço e titulo dos produtos.",
+            description: "Aplicação de cardápio digital desenvolvida com React, focada em praticidade e gerenciamento simplificado para delivery. O sistema utiliza Google Sheets como banco de dados, permitindo que o proprietário adicione novos produtos e altere preços em tempo real de forma intuitiva, sem necessidade de editar código.",
             image: projeto2,
             link: "https://esfistreet.vercel.app/"
         },
@@ -35,7 +35,7 @@ export default function Portifolio() {
         },
         {
             title: "Catálogo Digital",
-            description: "Aplicação de cardápio digital desenvolvida com React, focada em praticidade e gerenciamento simplificado para delivery. O sistema utiliza Google Sheets como banco de dados, permitindo que o proprietário adicione novos produtos e altere preços em tempo real de forma intuitiva, sem necessidade de editar código.",
+            description: "",
             image: catalogo,
             link: "https://catalogodkconfeccoes.vercel.app/"
         },
