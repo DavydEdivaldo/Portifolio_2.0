@@ -1,5 +1,5 @@
 import projeto1 from '/img/projeto-nubank.png'
-import projeto2 from '/img/cardapio.png'
+import projeto2 from '../../public/img/pagina-dk.png'
 import spiderpng from '/img/spider.png'
 import projetoPortifolio from '/img/portifolio.png'
 import landingPage from '/img/webPage.jpeg'
@@ -16,10 +16,10 @@ export default function Portifolio() {
             link: "https://web-site-nubank.vercel.app/"
         },
         {
-            title: "Cardápio Digital",
-            description: "Aplicação de cardápio digital desenvolvida com React, focada em praticidade e gerenciamento simplificado para delivery. O sistema utiliza Google Sheets como banco de dados, permitindo que o proprietário adicione novos produtos e altere preços em tempo real de forma intuitiva, sem necessidade de editar código.",
+            title: "Landing Page B2B",
+            description: "Uma landing page de alta conversão focada no mercado de atacado. Desenvolvida com React e Tailwind CSS, a interface utiliza um design moderno e minimalista para destacar os produtos, transmitir credibilidade logística e captar leads qualificados de lojistas diretamente para o WhatsApp.",
             image: projeto2,
-            link: "https://esfistreet.vercel.app/"
+            link: "https://lojista.dkconfeccoes.com.br"
         },
         {
             title: "Home Page Spider-Man",
@@ -68,7 +68,7 @@ export default function Portifolio() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
                 viewport={{ once: true, amount: 0.3 }}>
-                <h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent mb-2">Portfolio</h1>
+                <h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-[#F0F0F0] tracking-wide mb-2">Portfolio</h1>
                 <p className="text-[16px] max-[800px]:text-[14px] text-gray-300">
                     Explore meus projetos e criações desenvolvidos com tecnologias modernas.
                 </p>

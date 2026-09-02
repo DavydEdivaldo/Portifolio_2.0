@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 
-export default function Header () {
+export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState("Home");
 
     const navItems = [
-        { href: "#Home", label: "Home" }, 
+        { href: "#Home", label: "Home" },
         { href: "#About", label: "About" },
         { href: "#Portofolio", label: "Portofolio" },
         { href: "#Contact", label: "Contact" },
@@ -71,25 +71,14 @@ export default function Header () {
     return (
         <nav
             className={`fixed w-full top-0 z-50 transition-all duration-500 ${isOpen
-                    ? "bg-[#030014] opacity-100"
-                    : scrolled
-                        ? "bg-[#030014]/50 backdrop-blur-xl"
-                        : "bg-transparent"
+                ? "bg-[#030014] opacity-100"
+                : scrolled
+                    ? "bg-[#030014]/50 backdrop-blur-xl"
+                    : "bg-transparent"
                 }`}
         >
             <div className="mx-auto px-4 sm:px-6 lg:px-[10%] w-full flex justify-center">
-                <div className="flex items-center justify-between h-16 w-[87vw]">
-                    {/* Logo */}
-                    <div className="flex-shrink-0">
-                        <a
-                            href="#Home"
-                            onClick={(e) => scrollToSection(e, "#Home")}
-                            className="text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#6366f1] bg-clip-text text-transparent"
-                        >
-                            Davyd E. Silva
-                        </a>
-                    </div>
-
+                <div className="flex items-center justify-center h-16 w-[87vw]">
                     {/* Desktop Navigation */}
                     <div className="hidden md:block">
                         <div className="ml-8 flex items-center space-x-8 gap-2">
@@ -102,16 +91,16 @@ export default function Header () {
                                 >
                                     <span
                                         className={`relative z-10 transition-colors duration-300 ${activeSection === item.href.substring(1)
-                                                ? "bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent font-semibold"
-                                                : "text-[#e2d3fd] group-hover:text-white"
+                                            ? "bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent font-semibold"
+                                            : "text-[#e2d3fd] group-hover:text-white"
                                             }`}
                                     >
                                         {item.label}
                                     </span>
                                     <span
                                         className={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#6366f1] to-[#a855f7] transform origin-left transition-transform duration-300 ${activeSection === item.href.substring(1)
-                                                ? "scale-x-100"
-                                                : "scale-x-0 group-hover:scale-x-100"
+                                            ? "scale-x-100"
+                                            : "scale-x-0 group-hover:scale-x-100"
                                             }`}
                                     />
                                 </a>
@@ -139,8 +128,8 @@ export default function Header () {
             {/* Mobile Menu Overlay */}
             <div
                 className={`md:hidden h-2/5 fixed inset-0 bg-[#030014] transition-all duration-300 ease-in-out ${isOpen
-                        ? "opacity-100 translate-y-0"
-                        : "opacity-0 translate-y-[-100%] pointer-events-none"
+                    ? "opacity-100 translate-y-0"
+                    : "opacity-0 translate-y-[-100%] pointer-events-none"
                     }`}
                 style={{ top: "64px" }}
             >
@@ -152,8 +141,8 @@ export default function Header () {
                                 href={item.href}
                                 onClick={(e) => scrollToSection(e, item.href)}
                                 className={`block px-4 py-3 text-lg font-medium transition-all duration-300 ease ${activeSection === item.href.substring(1)
-                                        ? "bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent font-semibold"
-                                        : "text-[#e2d3fd] hover:text-white"
+                                    ? "bg-gradient-to-r from-[#6366f1] to-[#a855f7] bg-clip-text text-transparent font-semibold"
+                                    : "text-[#e2d3fd] hover:text-white"
                                     }`}
                                 style={{
                                     transitionDelay: `${index * 100}ms`,

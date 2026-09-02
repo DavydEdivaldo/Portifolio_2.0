@@ -35,7 +35,7 @@ const Contato = () => {
             </motion.div>
 
             <div className="w-[87vw] h-auto flex flex-row  items-center mt-6 max-[800px]:flex-col max-[800px]:gap-4 ">
-                <motion.div className=" flex flex-1 justify-center items-center"
+                <motion.div className=" flex flex-1 justify-center items-center z-10"
                     initial={{ opacity: 0, x: -40 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.7 }}

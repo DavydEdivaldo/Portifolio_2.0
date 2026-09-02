@@ -45,7 +45,7 @@ const Form = () => {
     return (
         <StyledWrapper>
             <div className="form-container z-10">
-                <form className="form " onSubmit={handleSubmit}>
+                <form className="form z-10" onSubmit={handleSubmit}>
                     <div className="form-group">
                         <label htmlFor="email">Email</label>
                         <input type="text" id="email" name="email" value={formData.email} onChange={handleChange} required />

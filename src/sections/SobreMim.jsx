@@ -21,7 +21,7 @@ export default function Sobre() {
 
     return (
         <div className="flex w-full min-h-screen justify-center items-center z-10 flex-col mt-6" id='About'>
-            <motion.h1 className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent"
+            <motion.h1 className="font-bold text-3xl sm:text-4xl lg:text-5xl text-[#F0F0F0] tracking-wide"
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
@@ -35,8 +35,8 @@ export default function Sobre() {
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true, amount: 0.3 }}>
                     <h1 className="flex flex-col">
-                        <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#f0f0f0] to-[#6366f1] bg-clip-text text-transparent">Davyd E.</span>
-                        <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent">Silva</span>
+                        <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#f0f0f0] to-[#6366f1] bg-clip-text text-transparent">Front-end</span>
+                        <span className="text-[35px] max-xl:text-xl font-bold bg-gradient-to-r from-[#a855f7] to-[#f0f0f0] bg-clip-text text-transparent">Web desing</span>
                     </h1>
                     <p className='margin-top-2 text-[16px] max-md:text-[14px] max-w-[75%] max-[800px]:max-w-[100%]'>
                         Desenvolvedor Front-End com formação em Análise e Desenvolvimento de Sistemas e foco em Web Design e UX Design. Apaixonado por criar experiências digitais modernas, busco unir design, animações e performance para desenvolver interfaces intuitivas, criativas e visualmente impactantes.

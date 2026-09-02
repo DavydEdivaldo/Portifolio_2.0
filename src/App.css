@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -188,36 +189,11 @@ p {
 
 
 
-/*animação main*/
-
-.js, .cod2, .react{
-	animation: svg 5s ease 1s infinite alternate;
-}
-.wordpress, .figma, .html{
-	animation: svg 5s ease 3s infinite alternate;
-}
-.css, .cod{
-	animation: svg 5s ease 2s infinite alternate;
-}
-
-@keyframes svg {
-	0%{
-		transform: translate3d(0, 0, 0);
-	}
-	100%{
-		transform: translate3d(0, 40px, 0);
-	}
-}
-
-
 
 @media (max-width: 800px){
 	.responsive{
 		flex-direction: column;
 		gap: 24px;
-	}
-	.main-svg{
-		margin-top: 40px;
 	}
 }
 @media (min-width: 1920px){
