@@ -33,14 +33,14 @@ export default function CommentForm({ user }) {
   };
 
   return (
-    <div class="form-container">
-      <form class="form" onSubmit={sendComment}>
-        <div class="form-group">
+    <div className="form-container">
+      <form className="form" onSubmit={sendComment}>
+        <div className="form-group">
           <label for="textarea">Deixe um comentário</label>
           <textarea required="" cols="50" rows="10" id="textarea" name="textarea" value={text}
             onChange={(e) => setText(e.target.value)}></textarea>
         </div>
-        <button type="submit" class="form-submit-btn">Enviar</button>
+        <button type="submit" className="form-submit-btn">Enviar</button>
       </form>
 
       <div className="h-[110px] overflow-y-scroll scrollbar-width">
