@@ -1,6 +1,7 @@
 import Spline from '../componentes/SplineScene';
 import { CgScrollV } from "react-icons/cg"
 import Davydsvg from '../../public/svg/davyd.svg'
+import heroMobile from '../../public/video/globo.mp4'
 import { useEffect, useState, useRef } from 'react';
 import { video } from 'motion/react-client';
 
@@ -47,37 +48,39 @@ export default function Main() {
         splineAppRef.current = splineApp;
     }
 
-    // function isMobile() {
-    //     const [isMobile, setIsMobile] = useState(false);
+     function isMobile() {
+         const [isMobile, setIsMobile] = useState(false);
 
-    //     useEffect(() => {
-    //         // Função para verificar a largura da tela
-    //         const handleResize = () => {
-    //             setIsMobile(window.innerWidth < 768);
-    //         };
-    //         handleResize();
-    //         // Fica "ouvindo" caso o usuário mude o tamanho da janela
-    //         window.addEventListener('resize', handleResize);
+         useEffect(() => {
+             // Função para verificar a largura da tela
+             const handleResize = () => {
+                 setIsMobile(window.innerWidth < 768);
+             };
+             handleResize();
+             // Fica "ouvindo" caso o usuário mude o tamanho da janela
+             window.addEventListener('resize', handleResize);
 
-    //         // Limpeza de memória
-    //         return () => window.removeEventListener('resize', handleResize);
-    //     }, []);
-
+            // Limpeza de memória
+             return () => window.removeEventListener('resize', handleResize);
+         }, []);
+        }
 
     return (
         <section className="relative w-full min-h-screen justify-center items-center overflow-hidden" id='Home'>
-            <Spline onLoad={handleLoad}/>
-            {/* {isMobile ? (
+            
+            {isMobile ? (
                     <video
-                    src=''
+                    src={heroMobile}
                     autoPlay
                     muted
                     loop
                     playsInline
+                    className='absolute w-full min-h-screen object-cover mix-blend-screen inset-0 -z-0'
                     />
-                ): (
-                    
-                )} */}
+                ) : (
+                    <Spline onLoad={handleLoad}/>
+                )
+                } 
             <div className='relative z-10 flex min-h-screen items-center justify-center'>
                 <img src={Davydsvg} alt="Logo tipo" />
             </div>
